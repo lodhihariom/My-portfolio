@@ -18,7 +18,7 @@ export default function App() {
     {
       title: 'Agile to PDH Integration',
       description:
-        'Automated .axml product data processing from SFTP to Oracle Fusion ERP using OIC integrations, XSLT transformations, and ESS Jobs.',
+        'Automated product data processing from SFTP to Oracle Fusion ERP using OIC integrations, XSLT transformations, and ESS Jobs.',
       points: [
         'Generated FBDI-compliant CSV files',
         'Triggered Item Import ESS Jobs',
@@ -28,7 +28,7 @@ export default function App() {
     },
     {
       title: 'CRM Integration Support',
-      description: 'Provided Level 2 production support for Salesforce to Oracle Fusion integrations using OIC.',
+      description: 'Level 2 production support for Salesforce to Oracle Fusion integrations using OIC.',
       points: [
         'Resolved REST/SOAP API connectivity issues',
         'Performed RCA for recurring failures',
@@ -38,7 +38,7 @@ export default function App() {
     },
     {
       title: 'Oracle Fusion HCM Support',
-      description: 'Delivered production support for Oracle Fusion HCM modules and integration workflows.',
+      description: 'Production support for Oracle Fusion HCM modules and integration workflows.',
       points: [
         'Bug fixing and defect triage',
         'Performed structured RCA',
@@ -53,7 +53,7 @@ export default function App() {
       <header style={{ padding: '2rem 1.5rem', borderBottom: '1px solid #1e293b' }}>
         <div style={{ maxWidth: '1120px', margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <div>
-            <h1 style={{ margin: 0, fontSize: '1.25rem', color: '#e6eef6', fontWeight: 700' }}>
+            <h1 style={{ margin: 0, fontSize: '1.25rem', color: '#e6eef6', fontWeight: 700 }}>
               Hariom Lodhi — Oracle Integration Cloud Developer
             </h1>
             <div style={{ color: '#94a3b8', fontSize: '0.9rem' }}>{experienceYears} experience in Oracle Integration Cloud (OIC)</div>
@@ -82,8 +82,11 @@ export default function App() {
                 <a href="mailto:lodhihariom28@gmail.com" style={{ padding: '0.75rem 1.25rem', borderRadius: '9999px', background: '#06b6d4', color: '#0f172a', fontWeight: 600, textDecoration: 'none' }}>
                   Email
                 </a>
-                <a href="https://www.linkedin.com/in/l-hariom/" target="_blank" rel="noreferrer" style={{ padding: '0.75rem 1.25rem', borderRadius: '9999px', border: '1px solid #334155', color: '#e6eef6', textDecoration: 'none' }}>
+                <a href="https://www.linkedin.com/in/l-hariom/" target="_blank" rel="noreferrer" style={{ padding: '0.75rem 1.25rem', borderRadius: '9999px', border: '1px solid #334155', color: '#cbd5e1', textDecoration: 'none' }}>
                   LinkedIn
+                </a>
+                <a href="/resume.pdf" target="_blank" rel="noreferrer" style={{ padding: '0.75rem 1.25rem', borderRadius: '9999px', border: '1px solid #334155', color: '#cbd5e1', textDecoration: 'none' }}>
+                  Download Resume
                 </a>
               </div>
             </div>
@@ -185,8 +188,12 @@ export default function App() {
             <h2 style={{ fontSize: '1.75rem', fontWeight: 800, marginBottom: '0.75rem' }}>Let's Connect</h2>
             <p style={{ color: '#94a3b8', marginBottom: '1rem' }}>Open to Oracle Integration Cloud Developer opportunities, integration support roles, and enterprise integration projects.</p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
-              <a href="mailto:lodhihariom28@gmail.com" style={{ padding: '0.85rem 1.25rem', borderRadius: '0.5rem', background: '#06b6d4', color: '#0f172a', textDecoration: 'none', fontWeight: 600 }}>lodhihariom28@gmail.com</a>
-              <a href="tel:+917489575326" style={{ padding: '0.85rem 1.25rem', borderRadius: '0.5rem', border: '1px solid #334155', color: '#e6eef6', textDecoration: 'none', display: 'inline-block' }}>+91 7489575326</a>
+              <a href="mailto:lodhihariom28@gmail.com" style={{ padding: '0.85rem 1.25rem', borderRadius: '0.5rem', background: '#06b6d4', color: '#0f172a', textDecoration: 'none', fontWeight: 600 }}>
+                Email me
+              </a>
+              <a href="tel:+917489575326" style={{ padding: '0.85rem 1.25rem', borderRadius: '0.5rem', border: '1px solid #334155', color: '#e6eef6', textDecoration: 'none', display: 'inline-block' }}>
+                +91 74895 75326
+              </a>
             </div>
           </div>
         </section>
