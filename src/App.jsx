@@ -1,9 +1,9 @@
 export default function App() {
   const currentRole = {
-    title: 'OIC Developer',
+    title: 'OIC Consultant',
     company: 'Shritu Technology Pvt. Ltd.',
     period: 'April 2026 – Present',
-    experience: '1+ year'
+    experience: '1.5+ years'
   };
 
   const coreSkills = {
@@ -44,7 +44,7 @@ export default function App() {
 
   const experience = [
     {
-      role: 'OIC Developer',
+      role: 'OIC Consultant',
       company: 'Shritu Technology Pvt. Ltd.',
       period: 'April 2026 – Present',
       highlights: [
@@ -60,6 +60,7 @@ export default function App() {
       period: 'June 2025 – April 2026',
       highlights: [
         'Diagnosed and resolved production integration failures by analyzing OIC fault logs, reprocessing failed messages, and refining data mappings',
+        'Monitored OIC integration runtime performance, identified bottlenecks, and implemented optimization approaches',
         'Collaborated with functional and technical teams to perform root cause analysis (RCA) and resolve integration issues',
         'Provided production support for Oracle Fusion integrations including incident analysis, defect triage, and data validation'
       ]
@@ -75,6 +76,7 @@ export default function App() {
       environment: 'Oracle Integration Cloud',
       description: 'Automated retrieval of AXML product data files from SFTP and applied transformation logic to map and persist product data into the database.',
       highlights: [
+        'Automated retrieval of AXML product data files from SFTP and applied transformation logic',
         'Generated FBDI-compliant CSV files and triggered Item Import ESS Jobs through Oracle Import Management',
         'Implemented file archival workflows and automated error notifications for failed OIC integration instances'
       ],
@@ -94,32 +96,6 @@ export default function App() {
         'Partnered with functional consultants and business users to validate data corrections'
       ],
       skills: ['OIC', 'REST APIs', 'SOAP APIs', 'HCM', 'CRM', 'XSLT', 'RCA', 'PL/SQL']
-    },
-    {
-      title: 'Lookup Code Management via REST',
-      company: 'Shritu Technology Pvt. Ltd.',
-      period: '2026',
-      role: 'OIC Developer',
-      environment: 'Oracle Integration Cloud',
-      description: 'OIC integration to retrieve and delete lookup codes across Oracle Fusion HCM lookup types using REST APIs.',
-      highlights: [
-        'Implemented pagination for bulk lookup records',
-        'Resolved API-level header mismatches for reliable REST calls'
-      ],
-      skills: ['OIC', 'REST APIs', 'HCM', 'Pagination']
-    },
-    {
-      title: 'BI Publisher Data Model & Report Creation via SOAP/REST',
-      company: 'Shritu Technology Pvt. Ltd.',
-      period: '2026',
-      role: 'OIC Developer',
-      environment: 'Oracle Integration Cloud',
-      description: 'Programmatic creation of BI Publisher data models and reports through SOAP/REST services from OIC.',
-      highlights: [
-        'Automated dynamic data model and report creation instead of manual setup',
-        'Built VBCS pages with CSV upload and REST POST for bank account loading'
-      ],
-      skills: ['OIC', 'BI Publisher', 'SOAP', 'REST APIs', 'VBCS']
     }
   ];
 
@@ -128,9 +104,7 @@ export default function App() {
     'Oracle Fusion Cloud Applications HCM Process Essentials Certified - Rel 1 – Oracle',
     'OIC Internship Completion Certificate – Vedantus Technologies Pvt. Ltd.',
     'Java, Data Structures & Algorithms Training – Sheryians Pvt. Ltd., Bhopal',
-    'Android App Development Training – Sheryians Pvt. Ltd., Bhopal',
-    'Blockchain Development – IIT Delhi',
-    'Ethical Hacking – IIT Kanpur'
+    'Android App Development Training – Sheryians Pvt. Ltd., Bhopal'
   ];
 
   const education = [
@@ -139,6 +113,12 @@ export default function App() {
       field: 'Computer Science Engineering',
       institution: 'Adina Institute of Science and Technology, Sagar, Madhya Pradesh',
       year: 'May 2021 – April 2025'
+    },
+    {
+      degree: 'Class XII',
+      field: 'Mathematics (MPBSE)',
+      institution: 'Govt. Higher Secondary Boys School, Rahatgarh, Madhya Pradesh',
+      year: 'May 2020 – March 2021'
     }
   ];
 
@@ -172,7 +152,7 @@ export default function App() {
                 Hi, I'm <span style={{ color: '#22d3ee' }}>Hariom Lodhi</span>
               </h2>
               <p style={{ color: '#cbd5e1', fontSize: '1.05rem', lineHeight: 1.6, marginBottom: '1.5rem', maxWidth: '56rem', marginTop: 0 }}>
-                OIC Developer with <strong>1+ year</strong> of professional experience designing and developing <strong>20+ integrations</strong>, and monitoring and supporting <strong>15+ production integrations</strong> between Oracle Fusion Cloud ERP, HCM, and external systems. Specialized in REST/SOAP APIs, Oracle adapters, XSLT transformations, and production incident resolution.
+                OIC Developer with <strong>1.5+ years</strong> of professional experience designing and developing <strong>20+ integrations</strong>, and monitoring and supporting <strong>15+ production integrations</strong> between Oracle Fusion Cloud ERP, HCM, and external systems. Specialized in REST/SOAP APIs, Oracle adapters, XSLT transformations, and production incident resolution.
               </p>
 
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
@@ -206,8 +186,8 @@ export default function App() {
                 <div style={{ color: '#cbd5e1' }}>Production Integrations Supported</div>
               </div>
               <div style={{ background: '#0b1220', borderRadius: '0.75rem', padding: '2rem', border: '1px solid #1e293b' }}>
-                <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#22d3ee', marginBottom: '0.5rem' }}>1+</div>
-                <div style={{ color: '#cbd5e1' }}>Year of OIC Experience</div>
+                <div style={{ fontSize: '2.5rem', fontWeight: 800, color: '#22d3ee', marginBottom: '0.5rem' }}>1.5+</div>
+                <div style={{ color: '#cbd5e1' }}>Years of OIC Experience</div>
               </div>
             </div>
           </div>
