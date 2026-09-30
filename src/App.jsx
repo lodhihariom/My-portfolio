@@ -185,6 +185,9 @@ export default function App() {
                 <a href="https://github.com/lodhihariom" target="_blank" rel="noreferrer" style={{ padding: '0.75rem 1.5rem', borderRadius: '0.5rem', border: '1px solid #334155', color: '#cbd5e1', textDecoration: 'none', display: 'inline-block' }}>
                   GitHub
                 </a>
+                <a href={`${import.meta.env.BASE_URL}Hariom_Lodhi_Resume.pdf`} target="_blank" rel="noreferrer" style={{ padding: '0.75rem 1.5rem', borderRadius: '0.5rem', border: '1px solid #22d3ee', color: '#22d3ee', textDecoration: 'none', display: 'inline-block', fontWeight: 600 }}>
+                  Download Resume
+                </a>
               </div>
             </div>
           </div>
@@ -361,6 +364,9 @@ export default function App() {
               <a href="https://www.linkedin.com/in/l-hariom/" target="_blank" rel="noreferrer" style={{ padding: '0.85rem 2rem', borderRadius: '0.5rem', border: '1px solid #334155', color: '#e6eef6', textDecoration: 'none', display: 'inline-block' }}>
                 LinkedIn Profile
               </a>
+                <a href={`${import.meta.env.BASE_URL}Hariom_Lodhi_Resume.pdf`} target="_blank" rel="noreferrer" style={{ padding: '0.85rem 2rem', borderRadius: '0.5rem', border: '1px solid #22d3ee', color: '#22d3ee', textDecoration: 'none', display: 'inline-block', fontWeight: 600 }}>
+                  Download Resume
+                </a>
             </div>
           </div>
         </section>
